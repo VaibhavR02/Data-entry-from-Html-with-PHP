@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  padding-left: 110px;
+  padding-bottom: 30px;
+  text-decoration: underline;
+}
+.container {
+  margin: auto;
+  background-color: blanchedalmond;
+}
+
+.form-group {
+  width: 50%;
+  border-color: black;
+  border-radius: 3px;
+}
+
+.btn {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(53, 53, 250);
+  color: white;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
